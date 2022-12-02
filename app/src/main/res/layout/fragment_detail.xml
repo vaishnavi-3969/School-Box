@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0303"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:gravity="center"
+        android:text="Any Doubt?"
+        android:textColor="#151414"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student Name:-"
+            android:textColor="#151414"
+            android:textSize="20sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/circlecorner"
+        android:hint="Name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student/Parent Email:-"
+            android:textColor="#151414"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/circlecorner"
+            android:hint="Email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student Roll Number:-"
+            android:textColor="#151414"
+            android:textSize="20sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/circlecorner"
+        android:hint="Rollnumber"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student/Parent Mobile Number:-"
+            android:textColor="#151414"
+            android:textSize="20sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/circlecorner"
+        android:hint="Number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Write Complain :-"
+            android:textColor="#151414"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="401dp"
+            android:layout_height="65dp"
+            android:background="@drawable/circlecorner"
+            android:hint="Name" />
+
+        <Button
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Submit"
+            android:textSize="24sp"
+            app:iconTint="#FF6E40" />
+    </LinearLayout>
+</LinearLayout>

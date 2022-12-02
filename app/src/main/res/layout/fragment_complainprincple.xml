@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#64FFDA"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:gravity="center"
+        android:text="Complaint Form"
+        android:textColor="#FF1744"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student Name:-"
+            android:textColor="#0B0A0A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/circlecorner"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:hint="Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student/Parent Email:-"
+            android:textColor="#0B0A0A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/circlecorner"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:hint="Email" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student Roll Number:-"
+            android:textColor="#0B0A0A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/circlecorner"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:hint="Rollnumber" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Student/Parent Mobile Number:-"
+            android:textColor="#0B0A0A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/circlecorner"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:hint="Number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Write Complain :-"
+            android:textColor="#0B0A0A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/circlecorner"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:hint="Name" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit" />
+    </LinearLayout>
+</LinearLayout>

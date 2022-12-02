@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="Principal Profile"
+        android:textColor="#FF5722"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="216dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/principal"
+        android:src="@drawable/circlecorner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="Naina Sharma"
+        android:textColor="#FF0202"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:gravity="center"
+        android:text="NCRD's Sterling School"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:gravity="center"
+        android:text="Pune"
+        android:textColor="#CDDC39"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:gravity="center"
+        android:text="0202-(813102)"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+</LinearLayout>

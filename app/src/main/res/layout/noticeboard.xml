@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    android:background="@drawable/circlecorner"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/noticemonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFAB40"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="Jan:-"
+        android:textColor="#040303"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticeimg"/>
+</LinearLayout>

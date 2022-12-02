@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:background="@drawable/corner"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="@string/ncrd_s_sterling_school"
+            android:textColor="#EF1000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_bhaijaan"
+
+            android:text="@string/since_2002"
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:src="@drawable/student_all"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Invoice"
+            android:textColor="#673AB7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Month"
+                android:textColor="#009688"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="YEAR"
+                android:textColor="#009688"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Student Name :"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="John Doe"
+                android:textColor="#4CAF50"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Roll Number : "
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="C220208819"
+                android:textColor="#4CAF50"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Course Name: "
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="C22S01"
+                android:textColor="#4CAF50"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Annual Fee :"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="1,80,000/-"
+                android:textColor="#4CAF50"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Monthly Fee:"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="12,29,322/-"
+                android:textColor="#4CAF50"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Dues: "
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="12,45,239/-"
+                android:textColor="#4CAF50"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Total:"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="3,23,432"
+                android:textColor="#4CAF50"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Note: Pay Fees before Penalty"
+            android:textAlignment="center"
+            android:textColor="#CDDC39"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+
+        <TextView
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Mode of Fee Payment: Online"
+            android:textAlignment="center"
+            android:textColor="#9C27B0"
+            android:textSize="14sp" />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Accound Number"
+            android:textColor="#00BCD4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Account No: "
+                android:textColor="#E91E63"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="@string/_20419771720"
+                android:textColor="#4CAF50"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Name"
+                android:textColor="#E91E63"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="John Doe"
+                android:textColor="#4CAF50"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#838080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="IFSC Code:"
+                android:textColor="#E91E63"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="SBIN0000243"
+                android:textColor="#4CAF50"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

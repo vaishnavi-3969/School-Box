@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profileimage"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/principal"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#07FB14"/>
+
+        <TextView
+            android:id="@+id/techername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+
+            android:layout_toRightOf="@+id/profileimage"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Jasmine Doe"
+            android:textColor="#0B0101"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/techername"
+            android:layout_toRightOf="@+id/profileimage"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="B. Tech Computer Engineering"
+
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

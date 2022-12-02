@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170772684641",
+    "project_id": "my-school-box-applicatio-d5e61",
+    "storage_bucket": "my-school-box-applicatio-d5e61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170772684641:android:945a9f45a51800aa09af20",
+        "android_client_info": {
+          "package_name": "com.myschool.myschoolbox.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170772684641-vhoijt6okdejeh41gsb6ubc5b0g8ukcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB97VfiHY5vQwEZeDlJ72DybLRnr5Cl8is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170772684641-vhoijt6okdejeh41gsb6ubc5b0g8ukcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homes"
+        android:title="Teacher Profile"
+        android:icon="@drawable/teacherprofile"
+        />
+    <item android:id="@+id/academicsession"
+        android:title="School Profile"
+        android:icon="@drawable/schoolprofile"
+        />
+    <item android:id="@+id/detail"
+        android:title="Any Doubt"
+        android:icon="@drawable/anydoubt"
+        />
+    <item android:id="@+id/rate"
+        android:title="Remark"
+        android:icon="@drawable/remark"
+        />
+    <item android:id="@+id/contactus"
+        android:title="About Principal"
+        android:icon="@drawable/princpleabout"
+        />
+    <item android:id="@+id/leaveapp"
+        android:title="Leave Application"
+        android:icon="@drawable/attach"
+        />
+    <item android:id="@+id/about"
+        android:title="Complain to Class Teacher"
+        android:icon="@drawable/complainteacher"
+        />
+    <item android:id="@+id/details"
+        android:title="Complain To Principal"
+        android:icon="@drawable/principalcomplain"
+        />
+
+</menu>

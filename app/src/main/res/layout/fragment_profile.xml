@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+   <LinearLayout
+       android:background="@drawable/circlecorner"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:fontFamily="@font/baloo_bhaijaan"
+           android:text="John"
+           android:textColor="#FF5252"
+           android:textSize="24sp"
+           android:textStyle="bold" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:fontFamily="@font/baloo_bhaijaan"
+
+           android:text="Class: 6"
+           android:textColor="#FF5252"
+           android:textSize="24sp" />
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/profile_image"
+           android:layout_width="188dp"
+           android:layout_height="156dp"
+           android:layout_gravity="center"
+           android:src="@drawable/student_all"
+           app:civ_border_color="#FF000000"
+           app:civ_border_width="2dp" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="C.No.: "
+        android:textColor="#76FF03"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="C220208819"
+        android:textColor="#121212"
+        android:textSize="16sp" />
+</RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+         android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Roll No.: "
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="39"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Gender."
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Female"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Father's Name"
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="John Doe"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Mother's Name"
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Jasmine Doe"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Address"
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Johnny Doe"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Date of Birth"
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="21/04/2021"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Father's Number"
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="1234567890"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Mother's Number."
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="123456789"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+      <View
+          android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#838080"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="Blood Group"
+              android:textColor="#76FF03"
+              android:textSize="16sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"
+              android:fontFamily="@font/baloo_bhaijaan"
+              android:text="O+"
+              android:textColor="#121212"
+              android:textSize="16sp" />
+      </RelativeLayout>
+   </LinearLayout>
+
+
+</LinearLayout>

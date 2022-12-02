@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.myschool.myschoolbox.app">
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MySchoolBox"
+        tools:targetApi="31">
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".StudentLogin"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".StudentSignUp"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".FeeStructure"/>
+        <activity android:name=".Register"/>
+        <activity android:name=".Tour"/>
+        <activity android:name=".Onlineclass"/>
+        <activity android:name=".Navigation"/>
+        <activity android:name=".Transport"/>
+        <activity android:name=".Result"/>
+        <activity android:name=".Books"/>
+        <activity android:name=".NoticeBoard"/>
+        <activity android:name=".Holiday"/>
+        <activity android:name=".Timetable"/>
+        <activity android:name=".Classwork"/>
+        <activity android:name=".Login"/>
+        <activity android:name=".Activity"/>
+        <activity android:name=".Attendance"/>
+        <activity android:name=".HomeWork"/>
+        <activity android:name=".Assignment"/>
+        <activity android:name=".ThirdActivity"/>
+        <activity android:name=".UploadImage"/>
+        <activity android:name=".UploadNotice"/>
+        <activity android:name=".UploadPdfActivity"/>
+
+<!--        <meta-data-->
+<!--            android:name="preloaded_fonts"-->
+<!--            android:resource="@array/preloaded_fonts" />-->
+<!--&lt;!&ndash;        <meta-data&ndash;&gt;-->
+        <!--            android:name="com.google.android.geo.API_KEY"-->
+        <!--            android:value = "@string/google_maps_key"/>-->
+
+    </application>
+
+</manifest>
